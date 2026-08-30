@@ -1,0 +1,16 @@
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Repositories.deps.json
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Repositories.dll
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Repositories.pdb
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Entities.dll
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Entities.pdb
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.csproj.AssemblyReference.cache
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.AssemblyInfoInputs.cache
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.AssemblyInfo.cs
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.csproj.CoreCompileInputs.cache
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.sourcelink.json
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.R.A7B66308.Up2Date
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.dll
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\refint\GolBet.Repositories.dll
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.pdb
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\ref\GolBet.Repositories.dll

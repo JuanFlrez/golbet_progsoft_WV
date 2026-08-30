@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "GolBet.Services/1.0.0": {
+        "dependencies": {
+          "GolBet.Entities": "1.0.0",
+          "GolBet.Repositories": "1.0.0"
+        },
+        "runtime": {
+          "GolBet.Services.dll": {}
+        }
+      },
+      "GolBet.Entities/1.0.0": {
+        "runtime": {
+          "GolBet.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GolBet.Repositories/1.0.0": {
+        "dependencies": {
+          "GolBet.Entities": "1.0.0"
+        },
+        "runtime": {
+          "GolBet.Repositories.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GolBet.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GolBet.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GolBet.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
