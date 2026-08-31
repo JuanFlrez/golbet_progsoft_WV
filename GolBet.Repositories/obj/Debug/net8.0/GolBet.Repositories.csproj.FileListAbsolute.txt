@@ -14,3 +14,5 @@ C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repos
 C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\refint\GolBet.Repositories.dll
 C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.pdb
 C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\ref\GolBet.Repositories.dll
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\bin\Debug\net8.0\GolBet.Repositories.runtimeconfig.json
+C:\ReposITM\golbet_progsoft_WV\GolBet.Repositories\obj\Debug\net8.0\GolBet.Repositories.genruntimeconfig.cache
