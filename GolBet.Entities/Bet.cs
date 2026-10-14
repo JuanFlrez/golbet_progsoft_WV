@@ -1,4 +1,4 @@
-﻿// GolBet.Entities/Bet.cs 
+// GolBet.Entities/Bet.cs 
 
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -45,9 +45,8 @@ public class Bet : AuditableEntity
     //Navigation Property 
 
     public Match Match { get; set; } = null!;
+    public string UserId { get; set; } = null!;
 
-
-
-    // Module 7 will add:  public string UserId  +  AppUser User 
+    public AppUser User { get; set; } = null!;
 
 }

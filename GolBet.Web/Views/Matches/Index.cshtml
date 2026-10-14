@@ -40,7 +40,13 @@
 
     </a>
 </div>
-<h2 class="mb-4">⚽ Cartelera de partidos</h2
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>⚽ Cartelera de partidos</h2>
+    @if (User.IsInRole("Admin"))
+    {
+        <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
+    }
+</div>
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
     @foreach (var match in Model)
     {
@@ -114,6 +120,13 @@
                        class="btn btn-sm btn-outline-secondary w-100 mt-2">
                         Ver detalle
                     </a>
+                    @if (User.IsInRole("Admin"))
+                    {
+                        <form asp-action="Deactivate" asp-route-id="@match.Id" method="post" class="mt-2"
+                              onsubmit="return confirm('¿Desactivar este partido?');">
+                            <button type="submit" class="btn btn-sm btn-outline-danger w-100">Desactivar partido</button>
+                        </form>
+                    }
                 </div>
             </div>
         </div>

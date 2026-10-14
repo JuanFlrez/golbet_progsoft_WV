@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es-CO">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,14 +27,27 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-controller="Matches" asp-action="Index">Partidos</a>
                         </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Teams" asp-action="Index">Equipos</a>
+                            </li>
+                        }
                     </ul>
-                    <!-- Aquí irá el enlace a Partidos (Módulo 3) y la sesión (Módulo 7) -->
+                    <partial name="_LoginPartial" />
                 </div>
             </div>
         </nav>
     </header>
     <div class="container">
         <main role="main" class="pb-3">
+            @if (TempData["Success"] is string message)
+            {
+                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                    ✅ @message
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
+                </div>
+            }
             @RenderBody()
         </main>
     </div>
