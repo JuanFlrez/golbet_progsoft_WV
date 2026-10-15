@@ -153,3 +153,8 @@ C:\ReposITM\golbet_progsoft_WV\GolBet.Web\bin\Debug\net8.0\runtimes\win\lib\net6
 C:\ReposITM\golbet_progsoft_WV\GolBet.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\ReposITM\golbet_progsoft_WV\GolBet.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\ReposITM\golbet_progsoft_WV\GolBet.Web\bin\Debug\net8.0\AutoMapper.dll
+C:\ReposITM\golbet_progsoft_wv\GolBet.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\ReposITM\golbet_progsoft_wv\GolBet.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\ReposITM\golbet_progsoft_wv\GolBet.Web\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\ReposITM\golbet_progsoft_wv\GolBet.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\ReposITM\golbet_progsoft_wv\GolBet.Web\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
