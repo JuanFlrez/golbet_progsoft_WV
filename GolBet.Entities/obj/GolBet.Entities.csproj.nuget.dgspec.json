@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj": {}
+    "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj": {}
   },
   "projects": {
-    "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj": {
+    "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj",
+        "projectUniqueName": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj",
         "projectName": "GolBet.Entities",
-        "projectPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj",
+        "projectPath": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj",
         "packagesPath": "C:\\Users\\catga\\.nuget\\packages\\",
         "outputPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\obj\\",
         "projectStyle": "PackageReference",

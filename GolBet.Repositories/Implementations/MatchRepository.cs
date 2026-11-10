@@ -24,7 +24,7 @@ public class MatchRepository : GenericRepository<Match>, IMatchRepository
 
 
 
-    public async Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null)
+    public async Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null, string? teamName = null)
 
     {
 
@@ -47,6 +47,11 @@ public class MatchRepository : GenericRepository<Match>, IMatchRepository
             query = query.Where(m => m.Status == status.Value);
 
 
+        //filtro por equipo  local/visitante 
+        if (!string.IsNullOrWhiteSpace(teamName))
+            query = query.Where(m =>
+                m.HomeTeam.Name.Contains(teamName) ||
+                m.AwayTeam.Name.Contains(teamName));
 
         return await query.OrderBy(m => m.Date).ToListAsync();
 

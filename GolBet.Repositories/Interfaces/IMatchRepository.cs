@@ -14,7 +14,7 @@ public interface IMatchRepository : IGenericRepository<Match>
 
 {
 
-    Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null);
+    Task<IEnumerable<Match>> GetAllWithTeamsAsync(MatchStatus? status = null, string? teamName = null);
 
     Task<Match?> GetByIdWithDetailsAsync(int id);
 

@@ -33,6 +33,17 @@
                                 <a class="nav-link" asp-controller="Teams" asp-action="Index">Equipos</a>
                             </li>
                         }
+                        @if (User.IsInRole("Apostador"))
+
+                        {
+
+                            <li class="nav-item">
+
+                                <a class="nav-link" asp-controller="Bets" asp-action="MyBets">Mis apuestas</a>
+
+                            </li>
+
+                        }
                     </ul>
                     <partial name="_LoginPartial" />
                 </div>
@@ -48,6 +59,21 @@
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Cerrar"></button>
                 </div>
             }
+
+            @if (TempData["Error"] is string errorMessage)
+
+            {
+
+                <div class="alert alert-danger alert-dismissible fade show">
+
+                    ⚠️ @errorMessage
+
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+
+                </div>
+
+            }
+
             @RenderBody()
         </main>
     </div>

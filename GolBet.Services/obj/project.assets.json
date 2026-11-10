@@ -2964,9 +2964,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Services\\GolBet.Services.csproj",
+      "projectUniqueName": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Services\\GolBet.Services.csproj",
       "projectName": "GolBet.Services",
-      "projectPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Services\\GolBet.Services.csproj",
+      "projectPath": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Services\\GolBet.Services.csproj",
       "packagesPath": "C:\\Users\\catga\\.nuget\\packages\\",
       "outputPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Services\\obj\\",
       "projectStyle": "PackageReference",
@@ -2991,11 +2991,11 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj": {
-              "projectPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Entities\\GolBet.Entities.csproj"
+            "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj": {
+              "projectPath": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Entities\\GolBet.Entities.csproj"
             },
-            "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Repositories\\GolBet.Repositories.csproj": {
-              "projectPath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Repositories\\GolBet.Repositories.csproj"
+            "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Repositories\\GolBet.Repositories.csproj": {
+              "projectPath": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Repositories\\GolBet.Repositories.csproj"
             }
           }
         }

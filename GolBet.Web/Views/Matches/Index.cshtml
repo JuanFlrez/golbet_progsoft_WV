@@ -12,28 +12,28 @@
 }
 
 <div class="d-flex gap-2 flex-wrap mb-4">
-    <a asp-action="Index"
+    <a asp-action="Index" asp-route-teamName="@ViewBag.TeamName"
        class="btn btn-sm @(current is null ? "btn-success" : "btn-outline-success")">
 
         Todos
 
     </a>
 
-    <a asp-action="Index" asp-route-status="@MatchStatus.Scheduled"
+    <a asp-action="Index" asp-route-status="@MatchStatus.Scheduled" asp-route-teamName="@ViewBag.TeamName"
        class="btn btn-sm @(current == MatchStatus.Scheduled ? "btn-success" : "btn-outline-success")">
 
         Programados
 
     </a>
 
-    <a asp-action="Index" asp-route-status="@MatchStatus.InProgress"
+    <a asp-action="Index" asp-route-status="@MatchStatus.InProgress" asp-route-teamName="@ViewBag.TeamName"
        class="btn btn-sm @(current == MatchStatus.InProgress ? "btn-success" : "btn-outline-success")">
 
         En juego
 
     </a>
 
-    <a asp-action="Index" asp-route-status="@MatchStatus.Finished"
+    <a asp-action="Index" asp-route-status="@MatchStatus.Finished" asp-route-teamName="@ViewBag.TeamName"
        class="btn btn-sm @(current == MatchStatus.Finished ? "btn-success" : "btn-outline-success")">
 
         Finalizados
@@ -47,6 +47,39 @@
         <a asp-action="Create" class="btn btn-success">+ Nuevo partido</a>
     }
 </div>
+<form asp-action="Index" method="get" class="row g-2 mb-4" role="search">
+    @if (current.HasValue)
+    {
+        <input type="hidden" name="status" value="@current.Value" />
+    }
+    <div class="col-sm-8 col-md-5">
+        <label class="visually-hidden" for="teamName">Buscar equipo</label>
+        <input id="teamName" name="teamName" value="@ViewBag.TeamName"
+               class="form-control" type="search" placeholder="Buscar equipo..." />
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-success">Buscar</button>
+    </div>
+    @if (!string.IsNullOrWhiteSpace((string?)ViewBag.TeamName))
+    {
+        <div class="col-auto">
+            <a asp-action="Index" asp-route-status="@current" class="btn btn-outline-secondary">Limpiar</a>
+        </div>
+    }
+</form>
+@if (!Model.Any())
+{
+    <div class="alert alert-info" role="status">
+        @if (!string.IsNullOrWhiteSpace((string?)ViewBag.TeamName))
+        {
+            <span>No encontramos partidos con equipos que coincidan con «@ViewBag.TeamName».</span>
+        }
+        else
+        {
+            <span>No hay partidos para mostrar con este filtro.</span>
+        }
+    </div>
+}
 <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
     @foreach (var match in Model)
     {

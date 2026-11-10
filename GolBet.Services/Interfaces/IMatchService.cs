@@ -14,7 +14,7 @@ public interface IMatchService
 
 {
     /// <summary>Match board: all active matches ordered by date.</summary> 
-    Task<IEnumerable<MatchDto>> GetBoardAsync(MatchStatus? status = null);
+    Task<IEnumerable<MatchDto>> GetBoardAsync(MatchStatus? status = null, string? teamName = null);
     Task<MatchDetailDto?> GetDetailAsync(int id);
     // GolBet.Services/Interfaces/IMatchService.cs  (agregar) 
 

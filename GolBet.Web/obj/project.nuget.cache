@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sw8y8JaxdPo=",
+  "dgSpecHash": "M6nlnOo7BpE=",
   "success": true,
-  "projectFilePath": "C:\\ReposITM\\golbet_progsoft_wv\\GolBet.Web\\GolBet.Web.csproj",
+  "projectFilePath": "C:\\ReposITM\\golbet_progsoft_WV\\GolBet.Web\\GolBet.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\catga\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\catga\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
