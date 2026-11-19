@@ -53,3 +53,8 @@ public class BetRepository : GenericRepository<Bet>, IBetRepository
             .ToListAsync();
 
 }
+public async Task<List<Bet>> GetPendingByMatchAsync(int matchId)
+    => await _dbSet
+        .Where(b => b.MatchId == matchId && b.Status == BetStatus.Pending)
+        .Include(b => b.User)       // the winners' balances live here
+        .ToListAsync();             // NO AsNoTracking: we WILL modify these
